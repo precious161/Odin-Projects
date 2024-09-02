@@ -1,0 +1,33 @@
+*{
+   box-sizing: border-boxing;
+}
+body{
+    background: linear-gradient(
+        #F5F5DC,
+        brown
+    );
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+img{
+    width: 450px;
+    height: 400px;
+    margin: 5px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+figcaption{
+    margin-top: 10px;
+    font-size: 30px;
+    font-family: cursive;
+}
+h1{
+    font-size: 55px;
+    font-family: Courier;
+}
+p{
+    font-size: 30px;
+    font-family: cursive; 
+}
